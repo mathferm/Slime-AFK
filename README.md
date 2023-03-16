@@ -19,7 +19,7 @@ Il s'agit d'un programme simple pour héberger et automatiser un bot slime pour 
     - `ip` - IP du serveur auquel se connecter.
     - `port` - port du serveur auquel se connecter (le plus souvent `25565`).
 - `account`:
-    - `username` - mot de passe de votre compte Mojang/Microsoft.
+    - `username` - Email de votre compte Mojang/Microsoft.
     - `accountType` - `mojang` ou `microsoft`, type de votre compte.
 - `bot`:
     - `logAllMessages` - s'il est défini sur `true`, enregistre tous les messages que le bot reçoit dans la console.
