@@ -12,7 +12,7 @@ Il s'agit d'un programme simple pour héberger et automatiser un bot slime pour 
 
 ## Usage
 - Pour démarrer le bot, exécutez `npm start` ou `node index.js`.
-- Le bot rejoindra Hypixel et entrera automatiquement dans ton island.
+- Le bot rejoindra Hypixel et entrera automatiquement dans son island.
 
 ## Configuration
 - `server`:
