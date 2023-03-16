@@ -1,5 +1,5 @@
 const mineflayer = require("mineflayer");
-const log = (...args) => require("process").stdout.write((config.fragbot.logTime ? `<${new Date(Date.now()).toLocaleTimeString()}> ` : "") + args.join("") + "[0m\n");
+const log = (...args) => require("process").stdout.write((config.bot.logTime ? `<${new Date(Date.now()).toLocaleTimeString()}> ` : "") + args.join("") + "[0m\n");
 const config = require("./config.json");
 
 const bot = mineflayer.createBot({
