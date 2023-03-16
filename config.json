@@ -7,7 +7,7 @@
         "username": "email",
         "accountType": "microsoft"
     },
-    "fragbot": {
+    "bot": {
         "logAllMessages": false,
         "logTime": true
     }
