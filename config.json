@@ -1,0 +1,14 @@
+{
+    "server": {
+        "ip": "mc.hypixel.net",
+        "port": "25565"
+    },
+    "account": {
+        "username": "email",
+        "accountType": "microsoft"
+    },
+    "fragbot": {
+        "logAllMessages": false,
+        "logTime": true
+    }
+}
