@@ -21,6 +21,6 @@ Il s'agit d'un programme simple pour héberger et automatiser un bot slime pour 
 - `account`:
     - `username` - mot de passe de votre compte Mojang/Microsoft.
     - `accountType` - `mojang` ou `microsoft`, type de votre compte.
-- `fragbot`:
+- `bot`:
     - `logAllMessages` - s'il est défini sur `true`, enregistre tous les messages que le bot reçoit dans la console.
     - `logTime` - si défini sur `true`, enregistre l'heure de tous les événements du bot dans la console.
