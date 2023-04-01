@@ -46,5 +46,5 @@ bot.on("message", event => {
     if (message.includes("Warping you to your SkyBlock island...")) {
     log(`Vous téléporte sur votre île SkyBlock (${bot.username})`);
     }
-    if (config.fragbot.logAllMessages) log(message);
+    if (config.bot.logAllMessages) log(message);
 });
