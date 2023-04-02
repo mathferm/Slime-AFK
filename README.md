@@ -6,11 +6,11 @@ Il s'agit d'un programme simple pour héberger et automatiser un bot slime pour 
 - Configuration simplifiée.
 
 ## Vous avez besoin
-- winscp[https://winscp.net/eng/download.php] pour mettre les fichier sur votre vps
-- Terminus[https://termius.com/] pour lancer le script
+- [winscp](https://winscp.net/eng/download.php) pour mettre les fichier sur votre vps
+- [Terminus](https://termius.com/) pour lancer le script
 
 ## Hébergeur
-- Ionos[https://www.ionos.fr/serveurs/vps]
+- [Ionos](https://www.ionos.fr/serveurs/vps)
 - il peut être utilisé sur Windows et Linux
 
 ## Installation
