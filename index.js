@@ -7,7 +7,7 @@ const bot = mineflayer.createBot({
     port: config.server.port,
     username: config.account.username,
     version: "1.8.9",
-    auth: "Microsoft",
+    auth: "microsoft",
 })
 
 const limbo = () => {
