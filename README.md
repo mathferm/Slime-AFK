@@ -14,7 +14,7 @@ Il s'agit d'un programme simple pour héberger et automatiser un bot slime pour 
 - il peut être utilisé sur Windows et Linux
 
 ## Installation
-- Téléchargement de nodejs `curl -s https://deb.nodesource.com/setup_16.x | sudo bash`
+- Téléchargement de nodejs `curl -s https://deb.nodesource.com/setup_18.x | sudo bash`
 - Installation de nodejs `sudo apt install nodejs -y`
 - Installation de screen `sudo apt install screen`
 - Remplissez les champs du `config.json`.
