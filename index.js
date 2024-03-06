@@ -13,7 +13,7 @@ const bot = mineflayer.createBot({
 bot.on('windowOpen', (window) => {
     setTimeout(() => {
         const playerHeads = window.slots
-            .filter(slot => slot !== null && slot.name === 'minecraft:player_head')
+            .filter(slot => slot !== null && slot.displayName === 'head')
         if (playerHeads.length > 0) {
             const mouseButton = 0; // 0: left click, 1: right click
             const mode = 0; // 0: single click
@@ -24,9 +24,9 @@ bot.on('windowOpen', (window) => {
             window.slots.forEach((slot, index) => {
                 if (slot) {
                     console.log(`Case ${index}: ${slot.displayName}`);
-                } else {
-                    console.log(`Case ${index}: Vide`);
-                }
+                } //else {
+                    //console.log(`Case ${index}: Vide`);
+                //}
             });
         }
     }, 5000); 
