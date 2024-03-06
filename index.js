@@ -13,7 +13,7 @@ const bot = mineflayer.createBot({
 bot.on('windowOpen', (window) => {
     setTimeout(() => {
         const playerHeads = window.slots
-            .filter(slot => slot !== null && slot.displayName === 'head')
+            .filter(slot => slot !== null && slot.displayName === 'Head')
         if (playerHeads.length > 0) {
             const mouseButton = 0; // 0: left click, 1: right click
             const mode = 0; // 0: single click
