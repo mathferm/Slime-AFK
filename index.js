@@ -17,6 +17,9 @@ bot.on('windowOpen', (window) => {
         if (playerHeads.length > 0) {
             const mouseButton = 0; // 0: left click, 1: right click
             const mode = 0; // 0: single click
+            console.log(playerHeads)
+            console.log(playerHeads[0])
+            console.log(playerHeads[0].slot)
             bot.clickWindow(playerHeads[0].slot, mouseButton, mode);
         }
         else{
